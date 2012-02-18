@@ -27,6 +27,7 @@ private FirefoxDriver driver;
 		login.sendKeys("maria.teste");
 		
 		WebElement password = driver.findElementByName("loggeduser.password");
+		
 		password.sendKeys("maria.teste");
 		
 		password.submit();
