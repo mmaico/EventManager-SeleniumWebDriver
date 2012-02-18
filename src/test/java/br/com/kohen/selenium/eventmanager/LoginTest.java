@@ -21,7 +21,7 @@ private FirefoxDriver driver;
 	@Test
 	public void enterPage() {
 		
-		driver.get("http://localhost:8180/view/login");
+		driver.get("http://184.72.134.147/view/login");
 		
 		WebElement login = driver.findElementByName("loggeduser.login");
 		login.sendKeys("maria.teste");
